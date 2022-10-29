@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "rm -rf dist && parcel build src/test.html --no-minify --public-url ."
+  },
+  "name": "cartoon character",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Getimer/cartoon-character.git",
+  "author": "nmer <2309382194@qq.com>",
+  "license": "MIT"
+}
