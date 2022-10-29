@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试</title>
+</head>
+<body>
+    <style id="demo2"></style>
+    <div id="demo"></div>
+    <div id="buttons">
+        <button id="btnSlow"><<</button>
+        <button id="btnPlay">■</button>
+        <button id="btnQuick">>></button>
+    </div>
+    <style>
+        #demo{
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            border:2px solid rgba(100,100,100,0.5);
+            width: 100%;
+            height: 50vh;
+            overflow-y: auto;
+        }
+        #demo::-webkit-scrollbar{
+            display: none;
+        }
+        #buttons{
+            position: fixed;
+            left: 50%;
+            bottom: 10%;
+            z-index: 10;
+        }
+        #buttons>button{
+            width: 40px;
+            height:40px;
+        }
+        #demo2{
+            display: none;
+        }
+        #html{
+            position: fixed;
+            top: 0;
+            width: 100%;
+            height: 50vh;
+            z-index: 5;
+        }
+    </style>
+    <div id="html">
+        <div class="bc">
+            <div class="ahead">
+                <div class="face"></div>
+                <div class="nose"></div>
+                <div class="eye left">
+                    <div class="tears left"></div>
+                </div>
+                <div class="eye right">
+                    <div class="tears right"></div>
+                </div>
+                <div class="bread">
+                    <div class="breadGroup1">
+                        <div class="bread1"></div>
+                        <div class="bread2"></div>
+                    </div>
+                    <div class="breadGroup2">
+                        <div class="bread3"></div>
+                        <div class="bread4"></div>
+                    </div>
+                    <div class="breadGroup3">
+                        <div class="bread5"></div>
+                        <div class="bread6"></div>
+                    </div>
+                </div>
+                <div class="mouthLine"></div>
+                <div class="mouth"></div>
+            </div>
+            <div class="bodys">
+                <div class="ahand left">
+                    <div class="arm left"></div>
+                    <div class="plam left"></div>
+                </div>
+                <div class="ahand right">
+                    <div class="arm right"></div>
+                    <div class="plam right"></div>
+                </div>
+                <div class="abody">
+                    <div class="belly"></div>
+                    <div class="necktie"></div>
+                    <div class="smallBell">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="radius"></div>
+                        <div class="line3"></div>
+                    </div>
+                    <div class="pocket"></div>
+                    <div class="crutch"></div>
+                </div>
+            </div>
+            <div class="bodyLine"></div>
+            <div class="afoot left"></div>
+            <div class="afoot right"></div>
+        </div>
+    </div>
+
+<script src="test.js"></script>
+</body>
+</html>
